@@ -89,6 +89,6 @@ align-items:flex-end;}
 .imm {max-width: 100px;}
 
 @media only screen and (max-width: 700px){
-nav a:link{font-size: 40px}
+nav a:link{font-size: 50px}
 span {display:none}
 }
