@@ -17,6 +17,10 @@ p {
         font-family: Arial, Helvetica, sans-serif;
         font-weight: 6em;
     }
+    h2{
+        color:aqua;
+    }
+    h3{color:blueviolet;}
     body {
         color: #d96c00;
         background-color: #efefef;
