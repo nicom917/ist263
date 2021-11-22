@@ -1,0 +1,82 @@
+body{
+    background-color: #07324e;
+    color: white;
+    font-family: 'Farro', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+a:link {
+    color: #42ff42;
+}
+nav{
+    color: #ff5f20;
+    background-color: white;
+    border:3px solid #ff5f20;
+    padding: 10px;
+    margin: auto;
+    width: 80%;
+    border-radius: 10px;
+}
+nav a{
+    padding: 12px;
+    text-align: center;
+    font-size: large;
+    color: #ff5f20;
+    
+}
+h1, h3{
+    color:#42ff42;
+    font-family: 'Farro', sans-serif;
+}
+#recpimage{
+    max-width: 450px;
+    max-height:170px;
+    float: right;
+    border: 1px solid #ec0707;
+    border-radius: 0.5px;
+    margin-bottom: 10px;
+
+}
+
+.welcome{
+    text-align: center;
+    background-color: #ff5f20;
+    border:3px solid white;
+    border-radius: 25px;
+    padding-bottom: 10px; padding-top: 1px; margin-top: 10px;
+}
+
+.instructions{
+    background-color: #fd6326;
+    padding: 10px; margin:10px;
+    border:3px solid rgb(255, 255, 255);
+    border-radius: 23px;
+    text-align: center;
+    flex:1;
+}
+
+
+.ingrediants{
+    background-color: #77c1da;
+    border-radius: 25px;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+    gap: 28px;
+}
+
+
+iframe{
+    border:3px solid #77c1da;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+@media only screen and (min-width: 600px){
+    .link {size: 20%; display:inline; margin: 0px;}
+}
+@media only screen and (max-width: 600px ) {
+    .link {size: 100%; display:block; margin: 10px;}
+    span{display:none;}
+}
+
+
