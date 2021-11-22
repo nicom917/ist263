@@ -28,7 +28,7 @@ h1, h3{
     color:#42ff42;
     font-family: 'Farro', sans-serif;
 }
-#recpimage{
+#recpimage, #recpimage2{
     max-width: 450px;
     max-height:170px;
     float: right;
