@@ -6,12 +6,12 @@ body{
  
 }
 a:link {
-    color: #42ff42;
+    color: #8aff8a;
 }
 nav{
-    color: #ff5f20;
+    color: #ff4a02;
     background-color: white;
-    border:3px solid #ff5f20;
+    border:3px solid #ff4a02;
     padding: 10px;
     margin: auto;
     width: 80%;
@@ -25,7 +25,7 @@ nav a{
     
 }
 h1, h3{
-    color:#42ff42;
+    color:#8aff8a;
     font-family: 'Farro', sans-serif;
 }
 #recpimage, #recpimage2{
