@@ -25,7 +25,11 @@ nav a{
     
 }
 h1, h3{
-    color:#0fdb0f;
+    color:black;
+    font-family: 'Farro', sans-serif;
+}
+h2, h4{
+    color:black;
     font-family: 'Farro', sans-serif;
 }
 #recpimage, #recpimage2{
