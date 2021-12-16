@@ -115,9 +115,9 @@ body {
   top: 50%;
   animation: loader 2s infinite ease;
 }
-.loader-wrapper {
+.loaderr {
     width: 100%;
-    height: 80%;
+    height: 300%;
     position: absolute;
     top: 0;
     left: 0;

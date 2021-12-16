@@ -6,6 +6,19 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>recipes</title>
+    <script>
+        //var loaderrr = document.getElementById("loaderr");
+        //window.onload = function() {}
+        //loaderr.style.display = 'none';
+        setTimeout(function loaderrr() {
+            document.getElementById("loader").style.display = "none";
+            document.getElementById("loader-inner").style.display = "none";
+            document.getElementById("loaderr").style.display = "none";
+        }, 3000);
+
+
+    </script>
+
     <link rel="stylesheet" href="styles.css">
     <style>
         #skip {
@@ -24,10 +37,14 @@
 </head>
 
 <body>
-   <div id="loaderr" ></div>
-        <span class="loader"><span class="loader-inner"></span></span>
+    <div class="loaderr" id="loaderr"> </div>
+    <div class="loader" id="loader" onload="loaderrr();">
+        <div class="loader-inner" id="loader-inner" onload="loaderrr();"></div>
+
+
     </div>
-    <!--<div class="loader>"-->
+    <!--<div class="loader>"
+         <span class="loader"><span class="loader-inner"></span></span>-->
     <nav>
         <a href="index.html">Home </a>
         <span>|</span>
@@ -133,12 +150,9 @@
    // $(".loader").fadeOut("slow")
  // }, 3000);
 //});
-var loader = document.getElementById("loaderr");
-window.onload = function() {
-    loader.style.display = 'none';
-}
 
-      </script>
+
+    </script>
 </body>
 
 </html>

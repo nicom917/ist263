@@ -7,6 +7,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>restaurants</title>
     <link rel="stylesheet" href="styles.css">
+    <script>
+    setTimeout(function loaderrr() {
+        document.getElementById("loader").style.display = "none";
+        document.getElementById("loader-inner").style.display = "none";
+        document.getElementById("loaderr").style.display = "none";
+    }, 3000);
+
+
+</script>
     <style>
         #skip {
             position: absolute;
@@ -23,24 +32,12 @@
 </head>
 
 <body>
-    <script >
+    <div class="loaderr" id="loaderr"> </div>
+    <div class="loader" id="loader" onload="loaderrr();">
+        <div class="loader-inner" id="loader-inner" onload="loaderrr();"></div>
 
-        (function(){
-          var myDiv = document.getElementById("myDiv"),
-      
-            show = function(){
-              myDiv.style.display = "block";
-              setTimeout(hide, 5000); // 5 seconds
-            },
-      
-            hide = function(){
-              myDiv.style.display = "none";
-            };
-      
-          show();
-        })();
-      
-      </script>
+
+    </div>
     <nav>
         <a href="index.html">Home </a>
         <span>|</span>

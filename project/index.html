@@ -6,6 +6,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>index</title>
+    <script>        setTimeout(function loaderrr() {
+        document.getElementById("loader").style.display = "none";
+        document.getElementById("loader-inner").style.display = "none";
+        document.getElementById("loaderr").style.display = "none";
+    }, 3000);
+
+
+</script>
     <link rel="stylesheet" href="styles.css">
     <style>
         #skip {
@@ -23,6 +31,12 @@
 </head>
 
 <body>
+    <div class="loaderr" id="loaderr"> </div>
+    <div class="loader" id="loader" onload="loaderrr();">
+        <div class="loader-inner" id="loader-inner" onload="loaderrr();"></div>
+
+
+    </div>
     <nav>
         <a href="index.html">Home </a>
         <span>|</span>
