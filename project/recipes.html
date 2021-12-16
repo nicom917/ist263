@@ -20,9 +20,14 @@
             left: 10px;
         }
     </style>
+
 </head>
 
 <body>
+   <div id="loaderr" ></div>
+        <span class="loader"><span class="loader-inner"></span></span>
+    </div>
+    <!--<div class="loader>"-->
     <nav>
         <a href="index.html">Home </a>
         <span>|</span>
@@ -77,42 +82,63 @@
         </div>
         <div class="chickenrec">
             <h3 class="h1">Chicken Saltimbocca Recipe</h3>
-                <img src="images/image2.png" id="recpimage2" alt="chicken Saltimbocca">
-                <a id="chickensalt"></a>
-                <section class="ingrediants">
-                    <h4>Ingrediants</h4>
-                        <ol>
-                            <li>Sliced Chicken Breast</li>
-                            <li>Prosciutto</li>
-                            <li>Sliced fontina cheese</li>
-                            <li>White wine</li>
-                            <li>Rosemary</li>
-                            <li>Olive oil</li>
-                            <li>Salt and Pepper</li>
-                        </ol>
-                </section>
-                <section class="instructions">
-                    <ul>
-                        <li>Anyone can cook this dish. Simply start by grilling some chicken in a pan. Make sure to
-                            lightly
-                            season it prior to grilling.
-                        </li>
-                        <li>Then, throw some prosciutto on top of the chicken. Allow the prosciutto to cook slightly,
-                            but not
-                            fully. We do not want it completely “raw,” but we also do not want it fried to death.</li>
-                        <li> Then add a slice(or two) of cheese on top of the prosciutto. Give yourself enough time to
-                            allow the
-                            cheese to melt without letting the chicken become burnt. </li>
-                        <li>Whilst doing all of this, make sure to saute some spinach in a separate pan.</li>
-                        <li>Congratulations, your dish is complete!</li>
-                    </ul>
-                </section>
+            <img src="images/image2.png" id="recpimage2" alt="chicken Saltimbocca">
+            <a id="chickensalt"></a>
+            <section class="ingrediants">
+                <h4>Ingrediants</h4>
+                <ol>
+                    <li>Sliced Chicken Breast</li>
+                    <li>Prosciutto</li>
+                    <li>Sliced fontina cheese</li>
+                    <li>White wine</li>
+                    <li>Rosemary</li>
+                    <li>Olive oil</li>
+                    <li>Salt and Pepper</li>
+                </ol>
+            </section>
+            <section class="instructions">
+                <ul>
+                    <li>Anyone can cook this dish. Simply start by grilling some chicken in a pan. Make sure to
+                        lightly
+                        season it prior to grilling.
+                    </li>
+                    <li>Then, throw some prosciutto on top of the chicken. Allow the prosciutto to cook slightly,
+                        but not
+                        fully. We do not want it completely “raw,” but we also do not want it fried to death.</li>
+                    <li> Then add a slice(or two) of cheese on top of the prosciutto. Give yourself enough time to
+                        allow the
+                        cheese to melt without letting the chicken become burnt. </li>
+                    <li>Whilst doing all of this, make sure to saute some spinach in a separate pan.</li>
+                    <li>Congratulations, your dish is complete!</li>
+                </ul>
+            </section>
         </div>
     </div>
     <hr>
     <footer>
         &copy; 2021<br>
     </footer>
+    <script>
+        //$(window).load(function() {
+     //     $('#loader-wrapper').hide();
+       // });
+       //setTimeout(fade_out, 5000);
+
+//function fade_out() {
+ // $("#loader-wrapper").fadeOut().empty();
+//}
+
+//$(window).load(function() {
+ // setInterval(function() {
+   // $(".loader").fadeOut("slow")
+ // }, 3000);
+//});
+var loader = document.getElementById("loaderr");
+window.onload = function() {
+    loader.style.display = 'none';
+}
+
+      </script>
 </body>
 
 </html>

@@ -7,9 +7,40 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>restaurants</title>
     <link rel="stylesheet" href="styles.css">
+    <style>
+        #skip {
+            position: absolute;
+            left: -999px;
+            background-color: white;
+            border: 1px solid black;
+        }
+
+        #skip:focus {
+            position: absolute;
+            left: 10px;
+        }
+    </style>
 </head>
 
 <body>
+    <script >
+
+        (function(){
+          var myDiv = document.getElementById("myDiv"),
+      
+            show = function(){
+              myDiv.style.display = "block";
+              setTimeout(hide, 5000); // 5 seconds
+            },
+      
+            hide = function(){
+              myDiv.style.display = "none";
+            };
+      
+          show();
+        })();
+      
+      </script>
     <nav>
         <a href="index.html">Home </a>
         <span>|</span>
